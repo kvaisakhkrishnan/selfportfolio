@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+   <style>
+       @import url(style.css);
+
+      
+
+   </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <h2>PORTFOLIO</h2>
+        </div>
+       <div class="link">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="#ed">Education</a></li>
+            
+            <li><a href="#proj">Project</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+       </div>
+    </div>
+        <div class="body">
+            <div class="topleft">
+                <p data-aos="zoom-in" data-aos-delay="100">Hi, myself <span>K Vaisakhkrishnan</span></p>
+                <h2 data-aos="zoom-in" data-aos-delay="300">WEB DEVELOPER</h2>
+                <p data-aos="zoom-in" data-aos-delay="500">Student at Amrita School of Engineering</p>
+                <button name="Projects" id="b1" onclick="location.href='#proj'" data-aos="zoom-in" data-aos-delay="700">Projects</button>
+                <button name="Contact" id="b2" onclick="location.href='contact.html'" data-aos="zoom-in" data-aos-delay="700">Contact</button>
+            </div>
+            <div class="topright">
+                <img src="MEDIA/1.jpg" alt="my image">
+            </div> 
+        </div>
+           <div class="education" id="ed">
+            <h2>EDUCATION</h2>
+           <div class="ed1" data-aos="zoom-in" data-aos-duration="1000">
+               <h4>CLASS X</h4>
+               <p><br>Completed class 10 in the year 2017 from St. Mary's Residential Central School, Alleppey, with CGPA 10<br><br><br><br><br></p>
+           </div>
+           <div class="ed2" data-aos="zoom-in" data-aos-duration="1000">
+            <h4>CLASS XII</h4>
+               <p><br>Completed class 12 in the year 2019 from Good Shepherd Public School and Junior College, Changanacherry, with 98.7%. Subject Topper in Computer Science<br><br></p>
+           </div>
+           <div class="ed3" data-aos="zoom-in" data-aos-duration="1000">
+            <h4>B TECH</h4>
+               <p><br>Currently pursuing my B.Tech in Computer Science at Amrita School of Engineering, Amrita Vishwa Vidyapeetham, Coimbatore. First semester CGPA: 8.9<br><br></p>
+           </div>
+
+          <div class="proj" id="proj" >
+              <h2>PROJECT</h2>
+              <div class="proj1" >
+                <h3 data-aos="fade-right">Developed MOOSIX</h3>
+                <p data-aos="fade-right" data-aos-delay="200">MOOSIX is an online platform to stream songs developed by the 2nd Semester students of Amrita School of Engineering. MOOSIX supports various features like download feature and ad free listening. The download feature is added so that there is no need of spending data to visit the website every time to listen to the same songs. Just click the link below to visit the website</p>
+            <a href="https://moosix.000webhostapp.com/" data-aos="fade-right" data-aos-delay="200" target="_blank">MOOSIX</a>  
+            </div>
+              <div class="proj2">
+                <img src="MEDIA/img2.gif" data-aos="zoom-in">
+              </div>
+            </div>
+           </div>         
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>           
+       
+<script>
+    AOS.init();
+</script> 
+</body>
+</html>

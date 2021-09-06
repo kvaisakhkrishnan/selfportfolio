@@ -1,0 +1,498 @@
+
+       
+    *
+    {
+        margin:0;
+    } 
+    .topleft
+     {
+         float:left;
+         display:inline;
+         width:40%;
+         padding:13% 0 2% 17%;
+        
+     }
+     .topright
+     {
+         
+         padding-top:10%;
+         padding-bottom:2%;
+        
+     }
+    
+     #b1
+     {
+         background-color: rgb(224, 95, 95);
+         color:white;
+         padding:6px 17px;
+         border-radius:20px;
+         border-style: none;
+         cursor: pointer;
+         font-size:20px;
+         
+        
+         
+     }
+     #b2
+     {
+         border-color: rgb(224, 95, 95);
+         color:rgb(224, 95, 95);
+         padding:6px 17px;
+         border-radius:20px;
+         border-style: solid;
+         cursor: pointer;
+         background-color: white;
+         font-size:20px;
+     }
+     .topleft h2
+     {
+         color:rgb(29, 29, 75);
+         font-family: sans-serif;
+         font-weight:750;
+         font-size:35px;
+         margin-bottom:2%;
+     }
+     .topleft p
+     {
+         color:rgb(29, 29, 75);
+         font-family: sans-serif;
+         font-size:22px;
+         margin:2%;
+     }
+     .topleft p span
+     {
+         color:rgb(224, 95, 95);
+     }
+     .body
+     {
+         position:relative;
+     }
+    
+     .header
+     {
+         background-color: rgb(29, 29, 75);
+        padding:2%;
+       
+         
+     }
+     .header ul
+     {
+         list-style: none;
+         
+         
+     }
+     .header ul li
+     {
+         display: inline;
+        
+         font-family: sans-serif;
+         padding:1% 1%;
+         
+     }
+     .header ul li a
+     {
+         text-decoration: none;
+         color:white;
+         transition:400ms;
+         
+     }
+     .header ul li a:hover
+     {
+         color:rgb(224, 95, 95);
+         transition:400ms;
+         
+         
+     }
+     .logo
+     {
+         display: inline;
+         float: left;
+         width:70%;
+         font-family: sans-serif;
+         color:white;
+     }
+     .link
+     {
+         display: inline;
+         width:30%;
+        
+     }
+     
+     .education
+     {
+         background-color: rgb(29, 29, 75);
+         position:absolute;
+         padding-bottom: 3%;
+         
+         
+         
+        
+     }
+     .education h2
+     {
+         color:white;
+         font-family: sans-serif;
+         font-weight: lighter;
+         text-align:center;
+         padding-top:7%;
+         padding-bottom:5%;
+     }
+     .ed1,.ed2,.ed3
+     {
+         
+        display:inline-block;
+         background-color: white;
+         width:17%;
+         position: relative;
+         border-radius: 4%;
+         transition:600ms;
+         
+     }
+    .ed1
+    {
+     left:20%;
+     padding-top:1%;
+     
+     
+    }
+    .ed2
+    {
+       left:25%;
+       padding-top:1%;
+    }
+    .ed3
+    {
+     left:30%;
+     padding-top:1%;
+    }
+
+    .ed1 h4,.ed2 h4,.ed3 h4
+    {
+        font-family: sans-serif;
+        color:rgb(224, 95, 95);
+        margin:0 5%;
+    }
+    .ed1 p,.ed2 p,.ed3 p
+    {
+        font-family: sans-serif;
+        margin:0 5%;
+    }
+    
+
+
+
+
+  
+   .proj
+   {
+     margin-top:7%;  
+     background-color: white;
+    
+   }
+   #proj h2
+   {
+     color:rgb(29, 29, 75);
+   }
+   .proj1,.proj2
+   {
+       display: inline;
+       width:50%;
+       float: left;
+       background-color: white;
+   }
+  .proj2 h1
+  {
+      font-family: sans-serif;
+      text-align: center;
+  }
+  .proj1 h3
+  {
+      font-family: sans-serif;
+      margin-left:15%;
+      color:rgb(224, 95, 95);
+
+
+  }
+  .proj1 p
+  {
+      font-family: sans-serif;
+      margin: 4% 15% 3% 15%;
+     
+      color: rgb(29, 29, 75);
+  }
+  .proj a
+  {
+      text-decoration: none;
+      color:rgb(224, 95, 95);
+      font-family: sans-serif;
+      margin-left:15%;
+      font-size:30px;
+      transition:400ms;
+  }
+  .proj a:hover
+  {
+     color: rgb(29, 29, 75);
+     transition:400ms;
+  }
+  
+  .proj1,.proj2
+  {
+      height:300px;
+  }
+  
+  .contact
+  {
+     background-color: rgb(29, 29, 75);
+    
+  }
+  #cont span
+  {
+      font-family: sans-serif;
+      font-weight:lighter;
+      padding-left:8%;
+     color:white;
+     font-size:20px;
+   padding:0;
+      
+  }
+
+  #cont p
+  {
+      color: white;
+      font-family: sans-serif;
+  }
+  #cont p a
+  {
+     color:rgb(224, 95, 95);
+     font-size:16px;
+     margin:0;
+     transition:400ms;
+  }
+  #cont p a:hover
+  {
+      color:red;
+      transition:400ms;
+  }
+  #cont p
+  {
+      padding-left:8%;
+  }
+
+  .contright
+        {
+            display: inline;
+            float: left;
+            width:30%;
+            background-color:rgb(29, 29, 75);
+            margin:5% 5% 0 15%;
+            border-radius: 5%;
+           
+            
+        }
+        .contright p
+        {
+            color:white;
+            font-family: sans-serif;
+            padding:0 0 5% 5%;
+        }
+        .contright h2
+        {
+            color:rgb(224, 95, 95);
+            font-family: sans-serif;
+            font-weight: lighter;
+            padding:5% 0 5% 5%;
+        }
+        .cont img
+        {
+            margin-top:5%;
+        }
+        .contright a
+        {
+            text-decoration: none;
+            color:white;
+            transition:400ms;
+        }
+        .contright a:hover
+        {
+            color:rgb(224, 95, 95);
+            transition:400ms;
+        }
+        
+        .footer
+        {
+            background-color:rgb(29, 29, 75);
+            
+            margin-top:4%;   
+        }
+        .footer p
+        {
+            color:white;
+            font-family: sans-serif;
+            padding:2% 0;
+            text-align: center;
+        }
+       .footer p span
+        {
+            font-size:12px;
+        }
+
+
+        @media screen and (max-width: 1200px) {
+            .header .logo
+            {
+                width:auto;
+                font-size:10px;
+                width:50%;
+                
+                
+            }
+            .header .link
+            {
+                width:auto;
+                font-size:9px;
+                justify-content: right;
+                align-items: center;
+        
+            }
+            .ed1,.ed2,.ed3
+            {
+                display:block;
+                width:40%;
+                font-size:10px;
+                left:auto;
+                right:auto;
+                top:auto;
+                bottom: auto;
+                margin:5% 0;
+               
+                
+                
+            }
+            .education
+            {
+                display:flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .education h2
+            {
+                font-size:14px;
+            }
+            .proj2 img
+            {
+                height:200px;
+                
+                
+            }
+            .proj2
+            {
+               
+                display: none;
+            }
+            .proj1
+            {
+                display:block;
+                width:100%;
+               
+                padding-bottom:0;
+            }
+           
+            
+            .proj h3
+            {
+                font-size:12px;
+            }
+            .proj p
+            {
+                font-size:10px;
+            }
+            .proj a
+            {
+                font-size:14px;
+            }
+            .topleft p
+            {
+                font-size:10px;
+            }
+            .topleft h2
+            {
+                font-size:12px;
+            }
+            .topleft
+            {
+                
+                display: block;
+                width:100%;
+                
+                
+            }
+            #b1,#b2
+            {
+                padding:auto;
+                font-size: 8px;
+                
+            }
+            .topright
+            {
+                display: none;
+            }
+            .topright img
+            {
+                height:90px;
+                
+            }
+            .topleft
+            {
+               
+                padding-top:0;
+                padding-left:0;
+                margin:0;
+                float:left;
+               text-align: center;
+               height:200px;
+               padding-top:100px;
+            }
+        
+            .body
+            {
+                display: flex;
+                flex-direction: column;
+            }
+           
+            .contright
+            {
+                width:40%;
+               margin-top:30px;
+               
+            }
+            .cont img
+            {
+                height:150px;
+                
+            }
+            .contright p
+            {
+                font-size:6px;
+            }
+            .contright h2
+            {
+                font-size:10px;
+            }
+            .footer
+            {
+                margin-top:300px;
+            }
+            .footer p
+            {
+                font-size:8px;
+            }
+            .footer p span
+            {
+                font-size:6px;
+            }
+            
+            }
+  
+  
+ 
